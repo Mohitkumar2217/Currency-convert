@@ -42,7 +42,7 @@ Usage
 
 Run the application:
 
-node index.js
+node --watch index.js
 
 Follow the prompts to enter the amount in USD and the target currency (e.g., INR, EUR).
 
@@ -52,7 +52,7 @@ Enter the amount in USD: 100
 Enter the target currency (e.g. INR, EUR): INR
 100 USD is approximately 7500.00 INR
 ```
-Benefits of Modularization
+<!-- Benefits of Modularization
 
 Readability: Each file has a clear purpose.
 
@@ -60,7 +60,7 @@ Reusability: You can reuse convertCurrency or fetchRates in other projects.
 
 Testability: Easier to write unit tests for individual modules.
 
-Scalability: Add features like reverse conversion or history logging without cluttering the main logic.
+Scalability: Add features like reverse conversion or history logging without cluttering the main logic. -->
 
 License
 
