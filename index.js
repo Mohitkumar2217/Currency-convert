@@ -3,6 +3,7 @@ import { fetchRates } from './api.js';
 import { convertCurrency } from './converter.js';
 import { askQuestion, closePrompt } from './prompt.js';
 
+
 const startConversion = async () => {
     try {
         const rates = await fetchRates();
